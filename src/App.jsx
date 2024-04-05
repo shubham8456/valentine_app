@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './App.css'
-import Manas from './assets/manas.jpeg'
+import Girl from './assets/girl.jpeg'
 
 const phrases = [
   "No 🙉",
@@ -39,8 +39,8 @@ function App() {
         </>
       ) : (
         <>
-          <img className='kiss' src={Manas} alt="Manaswi" />
-          <div className='text'>Hey Manaswi! Will you be my valentine 🌹?</div>
+          <img className='kiss' src={Girl} alt="Girlwi" />
+          <div className='text'>Hey! Will you be my valentine 🌹?</div>
           <div className='both-Button'>
             <button className='yesButton'
             style={{ fontSize: yesButtonSize , backgroundColor:'rgb(2, 117, 216)'}}
